@@ -8,6 +8,7 @@
   "Locale": true,
   "getCanonicalLocales": true,
   "Node.js": {
-    "version": "v14.15.1"
+    "version": "v14.15.1",
+    "date": "2020-12-30T07:32:10.069Z"
   }
 }
