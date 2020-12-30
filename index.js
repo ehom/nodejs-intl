@@ -23,7 +23,7 @@ for (const name of Object.keys(tableOfNames)) {
   tableOfNames[name] = supportedObjects.has(name);
 }
 
-tableOfNames['Node.js'] = {version: process.version};
+tableOfNames['Node.js'] = {version: process.version, date: new Date().toISOString()};
 
 console.debug(tableOfNames);
 
