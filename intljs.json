@@ -1,0 +1,14 @@
+{
+  "DateTimeFormat": true,
+  "RelativeTimeFormat": true,
+  "NumberFormat": true,
+  "Collator": true,
+  "PluralRules": true,
+  "ListFormat": true,
+  "Locale": true,
+  "getCanonicalLocales": true,
+  "Node.js": {
+    "version": "v14.15.1",
+    "date": "2021-01-04T09:12:57.201Z"
+  }
+}
