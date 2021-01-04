@@ -29,4 +29,4 @@ console.debug(tableOfNames);
 
 const content = JSON.stringify(tableOfNames, null, 2);
 
-fs.writeFileSync('./nodejs.json', content, 'utf-8');
+fs.writeFileSync('./intljs.json', content, 'utf-8');
