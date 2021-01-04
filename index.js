@@ -5,10 +5,12 @@ const fs = require('fs');
 // get List of Intl objects supported
 
 let tableOfNames = {
-  "Intl.js": Object.getOwnPropertyNames(Intl)
+  "Intl.js": Object.getOwnPropertyNames(Intl),
+  "Node.js": {
+    version: process.version,
+    date: new Date().toISOString()
+  }
 };
-
-tableOfNames['Node.js'] = {version: process.version, date: new Date().toISOString()};
 
 console.debug(tableOfNames);
 
