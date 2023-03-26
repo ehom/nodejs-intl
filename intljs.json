@@ -1,6 +1,7 @@
 {
   "Intl.js": [
     "getCanonicalLocales",
+    "supportedValuesOf",
     "DateTimeFormat",
     "NumberFormat",
     "Collator",
@@ -12,7 +13,7 @@
     "Segmenter"
   ],
   "Node.js": {
-    "version": "v16.14.0",
-    "date": "2022-02-26T09:10:51.514Z"
+    "version": "v18.15.0",
+    "date": "2023-03-26T19:49:17.204Z"
   }
 }
