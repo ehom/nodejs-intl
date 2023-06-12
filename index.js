@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // get List of Intl objects supported
 
-let tableOfNames = {
+const tableOfNames = {
   "Intl.js": Object.getOwnPropertyNames(Intl),
   "Node.js": {
     version: process.version,
